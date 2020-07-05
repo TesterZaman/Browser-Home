@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <title>Homepage</title>
+    <script type="text/javascript">
+        function display_c() {
+            var refresh = 1000; // Refresh rate in milli seconds
+            mytime = setTimeout('display_ct()', refresh)
+        }
+
+        function display_ct() {
+            var x = new Date()
+            document.getElementById('ct').innerHTML = x;
+            display_c();
+        }
+    </script>
+
+    <style>
+            .body {
+            background-color: black;
+            color: rgb(4, 255, 171);
+            font-size: 40px;
+            text-align: center;
+            margin-top: 53.45px;
+            padding: auto;
+        }
+        
+        #p1 {
+            font-size: 20px;
+        }
+        
+        .body img {
+            width: 100px;
+            height: 55px;
+    </style>
+
+</head>
+
+<body onload=display_ct(); class="body">
+    <span id='ct'></span>
+    <h3>‏اَلسَّلَامُ عَلَيْكُم وَرَحْمَةُ اَللهِ وَبَرَكاتُهُ</h3>
+
+    <h1>...মুইদুজ্জামানের বাড়িতে স্বাগতম...</h1>
+    <a href="https://www.google.com/" target="_blank"><img src="Pic/gg.jpg" alt="google"></a>
+    <a href="https://www.facebook.com" target="_blank"> <img src="Pic/fb.jpeg" alt="Facebook"></a>
+    <a href="https://www.youtube.com" target="_blank"><img src="Pic/yt.jpg" alt="Youtube"></a>
+    <a href="https://www.linkedin.com" target="_blank"> <img src="Pic/lin.jpg" alt="LinkedIn"></a>
+    <a href="https://www.github.com" target="_blank"><img src="Pic/GitHub.png" alt="Github"></a>
+
+    <br> Cyber Station BD. <br>
+    <p1 id='p1'>A Creative Cyber World - Protect the Cyber Crime.</p1>
+
+</body>
+
+</html>
